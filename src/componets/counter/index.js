@@ -1,7 +1,9 @@
 import { deposit, withdraw } from "../../store/amount/action";
 import { connect } from 'react-redux'
 
-const mapStateToProps = (state)=>{
+const mapStateToProps = (
+    state //reducer
+    )=>{
     return {
         amount:state.amountReducer.amount 
     }

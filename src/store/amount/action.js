@@ -1,18 +1,18 @@
-const deposit = ()=>{
+const deposit = () => {
     return {
-        type:"DEPOSIT_MONEY",
-        paylod:10
+        type: "DEPOSIT_MONEY",
+        paylod: 10
     }
 }
 
-const withdraw = ()=>{
+const withdraw = () => {
     return {
-        type:"WITHDRAW_MONEY",
-        paylod:-10
+        type: "WITHDRAW_MONEY",
+        paylod: -10
     }
 }
 
-export{
+export {
     deposit,
     withdraw
 }
